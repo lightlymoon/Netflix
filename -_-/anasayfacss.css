@@ -1,0 +1,58 @@
+body {
+    background-color: #1B1B1B;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif; ;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.baslik{
+    text-align: center;
+    color: rgb(177, 176, 176);
+    margin-top:300px; 
+    font-size: 3.5em;}
+
+.hepsi{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+
+
+.resim img{
+    height: 197px;
+    
+}
+input[type="submit"]{
+    background-color: #1B1B1B;
+    width: 230px;
+    height: 50px;
+    border:1px solid #6d6b6b;
+    color:#6d6b6b;
+    font-size:30px;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    border-color:rgb(158, 158, 158);
+    color:rgb(158, 158, 158);
+    
+}
+    img{
+        border-radius: 5px;
+        width: 200px;   
+        
+    }
+
+    img:hover{ 
+        transform:translateY(-7px);
+        border:3px solid white;
+    }
+p{
+    font-size: 1.5em;
+    color:#6d6b6b;
+    text-align:center;
+    margin-top:3px;
+}
+
